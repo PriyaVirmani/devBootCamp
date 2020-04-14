@@ -47,4 +47,15 @@ public class EvalutionOfTrustTest {
         assertEquals(4,scores[0]);
         assertEquals(4,scores[1]);
     }
+    @Test
+    public void ifCoolPlayersCooperate(){
+        Player coolPlayer1 = new Player();
+        Player coolPlayer2 = new Player();
+        ruleEngine.calculateScoreBasedOnMOve(coolPlayer1.getMove(),coolPlayer2.getMove());
+        int [] scores = ruleEngine.getScoreBoard();
+        assertEquals(2,scores[0]);
+        assertEquals(2,scores[1]);
+
+
+    }
 }

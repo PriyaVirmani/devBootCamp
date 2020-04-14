@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EvalutionOfTrustTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-04-14T04:41:01" hostname="Priyas-MacBook-Pro.local" time="0.001">
+<testsuite name="EvalutionOfTrustTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-14T05:28:16" hostname="Priyas-MacBook-Pro.local" time="0.001">
   <properties/>
-  <testcase name="ifPlayerOneCheatPlayerTwoCooperate" classname="EvalutionOfTrustTest" time="0.0"/>
-  <testcase name="afterFourMovesOfEachPlayer" classname="EvalutionOfTrustTest" time="0.0"/>
-  <testcase name="ifBothPlayersCooperate" classname="EvalutionOfTrustTest" time="0.0"/>
-  <testcase name="ifBothPlayersCheat" classname="EvalutionOfTrustTest" time="0.0"/>
-  <testcase name="ifPlayerOneCooperatePlayerTwoCheat" classname="EvalutionOfTrustTest" time="0.0"/>
+  <testcase name="ifCoolPlayersCooperate" classname="EvalutionOfTrustTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
