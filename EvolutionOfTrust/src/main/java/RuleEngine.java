@@ -24,7 +24,5 @@ public class RuleEngine {
         return playerScoreBoard;
     }
 
-    public int[] getScoreBoard(){
-        return playerScoreBoard;
-    }
+
 }

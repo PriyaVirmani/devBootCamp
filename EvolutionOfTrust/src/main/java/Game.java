@@ -1,10 +1,17 @@
 public class Game {
 
-    RuleEngine ruleEngine = new RuleEngine();
-    Player playerOne = new Player();
-    Player playerTwo= new Player();
-    public int [] getScoreOfPlayers(){
-         return ruleEngine.calculateScoreBasedOnMOve(playerOne.getMove(),playerTwo.getMove());
+    private  RuleEngine ruleEngine ;
+    private Player playerOne;
+    private Player playerTwo;
+
+    public Game(Player playerOne, Player playerTwo) {
+        this.playerOne = playerOne;
+        this.playerTwo = playerTwo;
+        ruleEngine = new RuleEngine();
+    }
+
+    public int [] getScore(){
+         return ruleEngine.calculateScoreBasedOnMOve(this.playerOne.getMove(),this.playerTwo.getMove());
     }
 
 }

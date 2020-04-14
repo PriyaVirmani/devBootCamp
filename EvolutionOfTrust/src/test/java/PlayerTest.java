@@ -4,9 +4,11 @@ import static org.junit.Assert.assertEquals;
 
 public class PlayerTest {
     @Test
-    public void shouldReturnCooperateAlways(){
+    public void shouldReturnCooperateAlways() {
+
         PlayerMove playerMove = new Player().getMove();
-        assertEquals(PlayerMove.COOPERATE,playerMove);
+
+        assertEquals(PlayerMove.COOPERATE, playerMove);
     }
 
 }
