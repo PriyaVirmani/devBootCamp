@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EvalutionOfTrustTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-04-13T12:20:45" hostname="Priyas-MacBook-Pro.local" time="0.001">
+<testsuite name="EvalutionOfTrustTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-04-14T04:41:01" hostname="Priyas-MacBook-Pro.local" time="0.001">
   <properties/>
   <testcase name="ifPlayerOneCheatPlayerTwoCooperate" classname="EvalutionOfTrustTest" time="0.0"/>
   <testcase name="afterFourMovesOfEachPlayer" classname="EvalutionOfTrustTest" time="0.0"/>
