@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4df7ab8-642e-4da2-a26a-cfdaf67f56f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -15,13 +15,16 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/EvalutionOfTrustTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/EvalutionOfTrustTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/EvalutionOfTrustTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/EvalutionOfTrustTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/RuleEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/RuleEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/EvalutionOfTrustTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/EvalutionOfTrustTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-EvalutionOfTrustTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-EvalutionOfTrustTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-EvalutionOfTrustTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EvalutionOfTrustTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EvalutionOfTrustTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RuleEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RuleEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EvalutionOfTrustTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RuleEngineTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -73,13 +79,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.EvalutionOfTrustTest.ifCoolPlayersCooperate">
-    <configuration name="EvalutionOfTrustTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.GameTest.shouldReturnScoreIfBothPlayersCoop">
+    <configuration name="EvalutionOfTrustTest.afterFourMovesOfEachPlayer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;EvalutionOfTrustTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;EvalutionOfTrustTest.afterFourMovesOfEachPlayer&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -94,12 +100,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="EvalutionOfTrustTest.ifCoolPlayersCooperate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GameTest.shouldReturnScoreIfBothPlayersCoop" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;EvalutionOfTrustTest.ifCoolPlayersCooperate&quot;" />
+        <option name="scriptParameters" value="--tests &quot;GameTest.shouldReturnScoreIfBothPlayersCoop&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -114,12 +120,52 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'EvolutionOfTrust.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PlayerTest.shouldReturnCooperateAlways" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests *" />
+        <option name="scriptParameters" value="--tests &quot;PlayerTest.shouldReturnCooperateAlways&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RuleEngineTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;RuleEngineTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RuleEngineTest.testIfBothPlayersCooperate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;RuleEngineTest.testIfBothPlayersCooperate&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -183,9 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.EvalutionOfTrustTest.ifCoolPlayersCooperate" />
-        <item itemvalue="Gradle.Tests in 'EvolutionOfTrust.test'" />
-        <item itemvalue="Gradle.EvalutionOfTrustTest" />
+        <item itemvalue="Gradle.GameTest.shouldReturnScoreIfBothPlayersCoop" />
+        <item itemvalue="Gradle.RuleEngineTest" />
+        <item itemvalue="Gradle.RuleEngineTest.testIfBothPlayersCooperate" />
+        <item itemvalue="Gradle.PlayerTest.shouldReturnCooperateAlways" />
+        <item itemvalue="Gradle.EvalutionOfTrustTest.afterFourMovesOfEachPlayer" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +248,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586770361987</updated>
       <workItem from="1586770365346" duration="9596000" />
-      <workItem from="1586836826573" duration="4758000" />
+      <workItem from="1586836826573" duration="9591000" />
     </task>
     <servers />
   </component>
@@ -208,26 +256,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1750" height="279" key="GridCell.Tab.0.bottom" timestamp="1586842290890">
+    <state x="100" y="123" width="1592" height="824" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586843245174">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
-    <state width="1750" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1586842290890" />
-    <state width="1750" height="279" key="GridCell.Tab.0.center" timestamp="1586842290889">
+    <state x="100" y="123" width="1592" height="824" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1792.1024@0.23.1792.1024" timestamp="1586843245174" />
+    <state width="1750" height="279" key="GridCell.Tab.0.bottom" timestamp="1586847096049">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
-    <state width="1750" height="279" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1586842290889" />
-    <state width="1750" height="279" key="GridCell.Tab.0.left" timestamp="1586842290889">
+    <state width="1750" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1586847096049" />
+    <state width="1750" height="279" key="GridCell.Tab.0.center" timestamp="1586847096048">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
-    <state width="1750" height="279" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1586842290889" />
-    <state width="1750" height="279" key="GridCell.Tab.0.right" timestamp="1586842290889">
+    <state width="1750" height="279" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1586847096048" />
+    <state width="1750" height="279" key="GridCell.Tab.0.left" timestamp="1586847096047">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
-    <state width="1750" height="279" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1586842290889" />
+    <state width="1750" height="279" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1586847096047" />
+    <state width="1750" height="279" key="GridCell.Tab.0.right" timestamp="1586847096048">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state width="1750" height="279" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1586847096048" />
     <state x="573" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1586770366674">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
     <state x="573" y="367" key="com.intellij.ide.util.TipDialog/0.23.1792.1024@0.23.1792.1024" timestamp="1586770366674" />
+    <state x="554" y="157" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586845774576">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state x="554" y="157" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1792.1024@0.23.1792.1024" timestamp="1586845774576" />
+    <state x="674" y="269" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586844601339">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state x="674" y="269" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1792.1024@0.23.1792.1024" timestamp="1586844601339" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1586777778848">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>

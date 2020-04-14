@@ -6,7 +6,7 @@ public class RuleEngine {
     private final static int POINTS_WHEN_ONE_COOP = 1;
     private final static int POINTS_WHEN_ONE_CHEAT = 3;
     private final static int POINTS_WHEN_BOTH_COOP =2;
-    public void calculateScoreBasedOnMOve(PlayerMove playerOneMove , PlayerMove playerTwoMove) {
+    public int[] calculateScoreBasedOnMOve(PlayerMove playerOneMove , PlayerMove playerTwoMove) {
 
          if (playerOneMove==PlayerMove.COOPERATE && playerTwoMove == PlayerMove.CHEAT){
                  playerScoreBoard[0] = playerScoreBoard[0] - POINTS_WHEN_ONE_COOP;
@@ -21,6 +21,7 @@ public class RuleEngine {
              playerScoreBoard[0] = playerScoreBoard[0] + POINTS_WHEN_BOTH_COOP;
              playerScoreBoard[1] = playerScoreBoard[1] + POINTS_WHEN_BOTH_COOP;
         }
+        return playerScoreBoard;
     }
 
     public int[] getScoreBoard(){
