@@ -14,16 +14,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/RuleEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/RuleEngine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/GameTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/PlayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/PlayerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/RuleEngineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/RuleEngineTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/GameTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/GameTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-GameTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-GameTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RuleEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RuleEngine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RuleEngineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RuleEngineTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +81,27 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GameTest.shouldReturnScoreIfBothPlayersCooperate">
+  <component name="RunManager" selected="Gradle.GameTest.shouldReturnOutputOfAllRounds">
+    <configuration name="GameTest.shouldReturnOutputOfAllRounds" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;GameTest.shouldReturnOutputOfAllRounds&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="GameTest.shouldReturnScoreIfBothPlayersCoop" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -119,26 +142,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PlayerTest.shouldReturnCooperateAlways" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;PlayerTest.shouldReturnCooperateAlways&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="RuleEngineTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -159,12 +162,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RuleEngineTest.testIfBothPlayersCooperate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RuleEngineTest.afterFourMovesOfEachPlayer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;RuleEngineTest.testIfBothPlayersCooperate&quot;" />
+        <option name="scriptParameters" value="--tests &quot;RuleEngineTest.afterFourMovesOfEachPlayer&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -228,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GameTest.shouldReturnOutputOfAllRounds" />
+        <item itemvalue="Gradle.RuleEngineTest.afterFourMovesOfEachPlayer" />
         <item itemvalue="Gradle.GameTest.shouldReturnScoreIfBothPlayersCooperate" />
         <item itemvalue="Gradle.GameTest.shouldReturnScoreIfBothPlayersCoop" />
         <item itemvalue="Gradle.RuleEngineTest" />
-        <item itemvalue="Gradle.RuleEngineTest.testIfBothPlayersCooperate" />
-        <item itemvalue="Gradle.PlayerTest.shouldReturnCooperateAlways" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +250,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586770361987</updated>
       <workItem from="1586770365346" duration="9596000" />
-      <workItem from="1586836826573" duration="11266000" />
+      <workItem from="1586836826573" duration="13537000" />
     </task>
     <servers />
   </component>
@@ -263,22 +266,26 @@
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
     <state x="709" y="258" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1024@0.23.1792.1024" timestamp="1586854018807" />
-    <state width="1750" height="279" key="GridCell.Tab.0.bottom" timestamp="1586854161440">
-      <screen x="0" y="23" width="1792" height="1024" />
+    <state width="1750" height="279" key="GridCell.Tab.0.bottom" timestamp="1586856253772">
+      <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1750" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1586854161440" />
-    <state width="1750" height="279" key="GridCell.Tab.0.center" timestamp="1586854161439">
-      <screen x="0" y="23" width="1792" height="1024" />
+    <state width="1750" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1586856253772" />
+    <state width="1750" height="279" key="GridCell.Tab.0.center" timestamp="1586856253771">
+      <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1750" height="279" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1586854161439" />
-    <state width="1750" height="279" key="GridCell.Tab.0.left" timestamp="1586854161439">
-      <screen x="0" y="23" width="1792" height="1024" />
+    <state width="1750" height="279" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1586856253771" />
+    <state width="1750" height="279" key="GridCell.Tab.0.left" timestamp="1586856253770">
+      <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1750" height="279" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1586854161439" />
-    <state width="1750" height="279" key="GridCell.Tab.0.right" timestamp="1586854161440">
-      <screen x="0" y="23" width="1792" height="1024" />
+    <state width="1750" height="279" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1586856253770" />
+    <state width="1750" height="279" key="GridCell.Tab.0.right" timestamp="1586856253771">
+      <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1750" height="279" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1586854161440" />
+    <state width="1750" height="279" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1586856253771" />
     <state x="573" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1586770366674">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
@@ -295,5 +302,9 @@
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.23.1792.1024@0.23.1792.1024" timestamp="1586777778848" />
+    <state x="561" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1586856412482">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="561" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1792.1026@0.23.1792.1026" timestamp="1586856412482" />
   </component>
 </project>

@@ -35,7 +35,7 @@ public class RuleEngineTest {
     public void testIfBothPlayersCooperate(){
 
         int [] scores=ruleEngine.calculateScoreBasedOnMOve(PlayerMove.COOPERATE,PlayerMove.COOPERATE);
-        
+
         assertEquals(2, scores[0]);
         assertEquals(2, scores[1]);
     }
@@ -44,11 +44,12 @@ public class RuleEngineTest {
     public void afterFourMovesOfEachPlayer(){
         int [] scores;
         ruleEngine.calculateScoreBasedOnMOve(PlayerMove.COOPERATE,PlayerMove.COOPERATE);
-        ruleEngine.calculateScoreBasedOnMOve(PlayerMove.COOPERATE,PlayerMove.CHEAT);
-        ruleEngine.calculateScoreBasedOnMOve(PlayerMove.CHEAT,PlayerMove.COOPERATE);
-        scores=ruleEngine.calculateScoreBasedOnMOve(PlayerMove.CHEAT,PlayerMove.CHEAT);
-        assertEquals(4,scores[0]);
-        assertEquals(4,scores[1]);
+        ruleEngine.calculateScoreBasedOnMOve(PlayerMove.COOPERATE,PlayerMove.COOPERATE);
+        ruleEngine.calculateScoreBasedOnMOve(PlayerMove.COOPERATE,PlayerMove.COOPERATE);
+        ruleEngine.calculateScoreBasedOnMOve(PlayerMove.COOPERATE,PlayerMove.COOPERATE);
+        scores=ruleEngine.calculateScoreBasedOnMOve(PlayerMove.COOPERATE,PlayerMove.COOPERATE);
+        assertEquals(10,scores[0]);
+        assertEquals(10,scores[1]);
     }
 
 

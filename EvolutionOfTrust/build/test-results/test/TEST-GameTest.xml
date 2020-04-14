@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GameTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-14T08:49:22" hostname="Priyas-MacBook-Pro.local" time="0.003">
+<testsuite name="GameTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-14T09:24:14" hostname="Priyas-MacBook-Pro.local" time="0.004">
   <properties/>
-  <testcase name="shouldReturnScoreIfBothPlayersCooperate" classname="GameTest" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="shouldReturnOutputOfAllRounds" classname="GameTest" time="0.004"/>
+  <system-out><![CDATA[Player12Player22
+Player14Player24
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
