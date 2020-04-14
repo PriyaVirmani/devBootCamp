@@ -5,39 +5,68 @@ import static org.junit.Assert.assertEquals;
 public class GameTest {
     @Test
     public void shouldReturnScoreIfBothPlayersCooperate() {
-        Player playerOne = new Player();
-        Player playerTwo = new Player();
+        Player playerOne = new Player(PlayerMove.COOPERATE);
+        Player playerTwo = new Player(PlayerMove.COOPERATE);
 
-        int[] scores = new Game(playerOne, playerTwo).getScore();
+        Score playerScoreBoard = new Game(playerOne, playerTwo).getScore();
 
-        assertEquals(2, scores[0]);
-        assertEquals(2, scores[1]);
+        assertEquals(new Score(2,2), playerScoreBoard);
+
     }
 
     @Test
     public void shouldReturnOutputOfAllRounds() {
-        Player playerOne = new Player();
-        Player playerTwo = new Player();
+        Player playerOne = new Player(PlayerMove.COOPERATE);
+        Player playerTwo = new Player(PlayerMove.COOPERATE);
         Game game   = new Game(playerOne,playerTwo);
 
-        int[] roundOne = game.getScore();
+
+        Score roundOne = game.getScore();
         game.printScoreForEachRound();
-        int [] roundTwo = game.getScore();
+        Score roundTwo = game.getScore();
         game.printScoreForEachRound();
-        int [] roundThree = game.getScore();
+        Score roundThree = game.getScore();
         game.printScoreForEachRound();
-        int[] roundFour = game.getScore();
+        Score roundFour = game.getScore();
         game.printScoreForEachRound();
 
 
-        assertEquals(2, roundOne[0]);
-        assertEquals(2, roundOne[1]);
-        assertEquals(4, roundTwo[0]);
-        assertEquals(4, roundTwo[1]);
-        assertEquals(6, roundThree[0]);
-        assertEquals(6, roundThree[1]);
-        assertEquals(8, roundFour[0]);
-        assertEquals(8, roundFour[1]);
+        assertEquals(new Score(2,2), roundOne);
+        assertEquals(new Score(4,4), roundTwo);
+        assertEquals(new Score(6,6), roundThree);
+        assertEquals(new Score(8,8), roundFour);
+
+    }
+    @Test
+    public void shouldReturnOutputCheatAndCooperate(){
+
+        Player cheater = new Player(PlayerMove.CHEAT);
+        Player coOperate = new Player(PlayerMove.COOPERATE);
+        Game game   = new Game(coOperate,cheater);
+
+
+        Score roundOne = game.getScore();
+        game.printScoreForEachRound();
+        Score roundTwo = game.getScore();
+        game.printScoreForEachRound();
+        Score roundThree = game.getScore();
+        game.printScoreForEachRound();
+        Score roundFour = game.getScore();
+        game.printScoreForEachRound();
+
+
+        assertEquals(new Score(-1,3), roundOne);
+        assertEquals(new Score(-2,6), roundTwo);
+        assertEquals(new Score(-3,9), roundThree);
+        assertEquals(new Score(-4,12), roundFour);
+
+
+
+
+
+
+
+
 
     }
 }

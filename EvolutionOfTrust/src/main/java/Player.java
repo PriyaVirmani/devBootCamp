@@ -1,8 +1,15 @@
 public class Player {
 
-    public PlayerMove getMove() {
+    private PlayerMove moveType;
 
-        return PlayerMove.COOPERATE;
+    public Player(PlayerMove moveType) {
+
+        this.moveType = moveType;
+    }
+
+    public PlayerMove getMove() {
+         return moveType;
 
     }
 }
+

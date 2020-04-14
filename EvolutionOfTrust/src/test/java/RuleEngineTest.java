@@ -4,52 +4,51 @@ import static org.junit.Assert.assertEquals;
 
 public class RuleEngineTest {
 
-    RuleEngine ruleEngine =new RuleEngine();
+    RuleEngine ruleEngine = new RuleEngine();
+
     @Test
-    public void testIfPlayerOneCooperatePlayerTwoCheat(){
+    public void testIfPlayerOneCooperatePlayerTwoCheat() {
 
-        int [] scores=ruleEngine.calculateScoreBasedOnMOve(PlayerMove.COOPERATE,PlayerMove.CHEAT);
+        Score playerScoreBoard = ruleEngine.calculateScoreBasedOnMOve(PlayerMove.COOPERATE, PlayerMove.CHEAT);
 
-        assertEquals(-1,scores[0]);
-        assertEquals(3,scores[1]);
+        assertEquals(new Score(-1,3), playerScoreBoard);
 
     }
+
     @Test
-    public void testIfPlayerOneCheatPlayerTwoCooperate(){
+    public void testIfPlayerOneCheatPlayerTwoCooperate() {
 
-        int [] scores= ruleEngine.calculateScoreBasedOnMOve(PlayerMove.CHEAT,PlayerMove.COOPERATE);
+        Score playerScoreBoard = ruleEngine.calculateScoreBasedOnMOve(PlayerMove.CHEAT, PlayerMove.COOPERATE);
 
-        assertEquals(3,scores[0]);
-        assertEquals(-1,scores[1]);
-    }
-    @Test
-    public void testIfBothPlayersCheat(){
-
-        int [] scores=ruleEngine.calculateScoreBasedOnMOve(PlayerMove.CHEAT,PlayerMove.CHEAT);
-
-        assertEquals(0,scores[0]);
-        assertEquals(0,scores[1]);
+        assertEquals(new Score(3,-1), playerScoreBoard);
 
     }
+
     @Test
-    public void testIfBothPlayersCooperate(){
+    public void testIfBothPlayersCheat() {
 
-        int [] scores=ruleEngine.calculateScoreBasedOnMOve(PlayerMove.COOPERATE,PlayerMove.COOPERATE);
+        Score playerScoreBoard = ruleEngine.calculateScoreBasedOnMOve(PlayerMove.CHEAT, PlayerMove.CHEAT);
 
-        assertEquals(2, scores[0]);
-        assertEquals(2, scores[1]);
+        assertEquals(new Score(0,0), playerScoreBoard);
+
+    }
+
+    @Test
+    public void testIfBothPlayersCooperate() {
+
+        Score playerScoreBoard = ruleEngine.calculateScoreBasedOnMOve(PlayerMove.COOPERATE, PlayerMove.COOPERATE);
+
+        assertEquals(new Score(2,2), playerScoreBoard);
     }
 
     @Test
     public void afterFourMovesOfEachPlayer(){
-        int [] scores;
         ruleEngine.calculateScoreBasedOnMOve(PlayerMove.COOPERATE,PlayerMove.COOPERATE);
         ruleEngine.calculateScoreBasedOnMOve(PlayerMove.COOPERATE,PlayerMove.COOPERATE);
         ruleEngine.calculateScoreBasedOnMOve(PlayerMove.COOPERATE,PlayerMove.COOPERATE);
         ruleEngine.calculateScoreBasedOnMOve(PlayerMove.COOPERATE,PlayerMove.COOPERATE);
-        scores=ruleEngine.calculateScoreBasedOnMOve(PlayerMove.COOPERATE,PlayerMove.COOPERATE);
-        assertEquals(10,scores[0]);
-        assertEquals(10,scores[1]);
+        Score playerScoreBoard=ruleEngine.calculateScoreBasedOnMOve(PlayerMove.COOPERATE,PlayerMove.COOPERATE);
+        assertEquals(new Score(10,10),playerScoreBoard);
     }
 
 
