@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4df7ab8-642e-4da2-a26a-cfdaf67f56f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-PlayerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/PlayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/PlayerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/RuleEngineTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/PlayerTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-RuleEngineTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +82,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RuleEngineTest">
+  <component name="RunManager" selected="Gradle.PlayerTest.shouldReturnCheatAlways">
     <configuration name="GameTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -109,6 +123,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="PlayerTest.shouldReturnCheatAlways" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;PlayerTest.shouldReturnCheatAlways&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="PlayerTest.shouldReturnCooperateAlways" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -135,26 +169,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;RuleEngineTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RuleEngineTest.afterFourMovesOfEachPlayer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;RuleEngineTest.afterFourMovesOfEachPlayer&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -218,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PlayerTest.shouldReturnCheatAlways" />
         <item itemvalue="Gradle.RuleEngineTest" />
         <item itemvalue="Gradle.PlayerTest.shouldReturnCooperateAlways" />
         <item itemvalue="Gradle.GameTest" />
         <item itemvalue="Gradle.GameTest.shouldReturnOutputOfAllRounds" />
-        <item itemvalue="Gradle.RuleEngineTest.afterFourMovesOfEachPlayer" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +252,7 @@
       <updated>1586770361987</updated>
       <workItem from="1586770365346" duration="9596000" />
       <workItem from="1586836826573" duration="13563000" />
-      <workItem from="1586856722353" duration="10590000" />
+      <workItem from="1586856722353" duration="12357000" />
     </task>
     <servers />
   </component>
@@ -255,25 +269,25 @@
     </state>
     <state x="709" y="258" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1024@0.23.1792.1024" timestamp="1586856965578" />
     <state x="709" y="258" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1026@0.23.1792.1026" timestamp="1586863037983" />
-    <state width="1750" height="279" key="GridCell.Tab.0.bottom" timestamp="1586868544954">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state width="1750" height="279" key="GridCell.Tab.0.bottom" timestamp="1586925499868">
+      <screen x="0" y="23" width="1792" height="1024" />
     </state>
-    <state width="1750" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1586861032659" />
+    <state width="1750" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1586925499868" />
     <state width="1750" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1586868544954" />
-    <state width="1750" height="279" key="GridCell.Tab.0.center" timestamp="1586868544953">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state width="1750" height="279" key="GridCell.Tab.0.center" timestamp="1586925499868">
+      <screen x="0" y="23" width="1792" height="1024" />
     </state>
-    <state width="1750" height="279" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1586861032658" />
+    <state width="1750" height="279" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1586925499868" />
     <state width="1750" height="279" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1586868544953" />
-    <state width="1750" height="279" key="GridCell.Tab.0.left" timestamp="1586868544953">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state width="1750" height="279" key="GridCell.Tab.0.left" timestamp="1586925499867">
+      <screen x="0" y="23" width="1792" height="1024" />
     </state>
-    <state width="1750" height="279" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1586861032658" />
+    <state width="1750" height="279" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1586925499867" />
     <state width="1750" height="279" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1586868544953" />
-    <state width="1750" height="279" key="GridCell.Tab.0.right" timestamp="1586868544953">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state width="1750" height="279" key="GridCell.Tab.0.right" timestamp="1586925499868">
+      <screen x="0" y="23" width="1792" height="1024" />
     </state>
-    <state width="1750" height="279" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1586861032659" />
+    <state width="1750" height="279" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1586925499868" />
     <state width="1750" height="279" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1586868544953" />
     <state x="573" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1586770366674">
       <screen x="0" y="23" width="1792" height="1024" />
